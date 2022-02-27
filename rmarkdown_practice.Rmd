@@ -31,7 +31,6 @@ urlcolor: blue
 **Section K01**
 
 #Course Goals
-
 By the end of the course, the student will able to:  
 
 * Use [GitHub](www.github.com) for creating a reproducible research document.  
