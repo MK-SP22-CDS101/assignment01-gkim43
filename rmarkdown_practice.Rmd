@@ -28,10 +28,40 @@ urlcolor: blue
 <!-- Write your Markdown below this line -->
 
 #Section
-Section 01
+**Section K01**
 
 #Course Goals
-By the end of the course the student will able to:
+
+By the end of the course, the student will able to:  
+
+* Use [GitHub](www.github.com) for creating a reproducible research document.  
+
+    - My GitHub Username: _Ga Young Kim_  
+
+* Obtain, clean, transform, and visualize a dataset using the R programming language. 
+
+* Interpret and predict dataset trends using statistical inference and models.  
+
+* Critically examine and interpret statistical claims reported in mass media.  
+
+#Including Code
+## Running R code in a code chunk  
+```{r}
+x <- 2+2
+x + 3
+```
+The output of first line of code is not printed out because it is assigned to a variable instead.  
+The second line of output is printed out instead, but this means that the calculated value has notbeen saved for future use.
+
+### Displaying Graphs
+```{r}
+ggplot2::qplot(data = iris, x = Sepal.Length, y = Sepal.Width)
+```
+
+
+
+
+  
 
 
 
