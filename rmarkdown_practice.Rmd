@@ -26,10 +26,12 @@ urlcolor: blue
 ---
 
 <!-- Write your Markdown below this line -->
-```{r}
-"Hello, World!" 
-```
 
+#Section
+Section 01
+
+#Course Goals
+By the end of the course the student will able to:
 
 
 
